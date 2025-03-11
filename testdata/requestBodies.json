@@ -1,0 +1,42 @@
+{
+  "createBook": {
+    "id": 0,
+    "title": "Test Book",
+    "description": "Test Description",
+    "pageCount": 100,
+    "excerpt": "Test Excerpt",
+    "publishDate": "2023-10-27T00:00:00Z"
+  },
+  "updateBook": {
+    "id": 1,
+    "title": "Updated Test Book",
+    "description": "Updated Test Description",
+    "pageCount": 200,
+    "excerpt": "Updated Test Excerpt",
+    "publishDate": "2023-10-27T00:00:00Z"
+  },
+  "createAuthor": {
+    "id": 0,
+    "idBook": 1,
+    "firstName": "hakan",
+    "lastName": "ali"
+  },
+  "updateAuthor": {
+    "id": 1,
+    "idBook": 2,
+    "firstName": "Jane",
+    "lastName": "Smith"
+  },
+  "createActivity": {
+    "id": 0,
+    "title": "Test Activity",
+    "dueDate": "2023-11-01T00:00:00Z",
+    "completed": false
+  },
+  "updateActivity": {
+    "id": 1,
+    "title": "Updated Activity",
+    "dueDate": "2023-11-15T00:00:00Z",
+    "completed": true
+  }
+}
